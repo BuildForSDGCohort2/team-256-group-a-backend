@@ -3,6 +3,7 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 
 const healthCheck = require("./routes/health-check")  
+const routes = require("./routes/index")
 
 const app = express();
 
@@ -10,6 +11,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(healthCheck);
+app.use("/api", routes);
+
 
 app.use(function(req, res, next) {
   next(createError(404));
