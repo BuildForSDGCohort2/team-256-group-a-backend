@@ -1,0 +1,20 @@
+{
+  "name": "team256",
+  "version": "1.0.0",
+  "description": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/844ed56ffaf9427b9d7354cc2084055b)](https://app.codacy.com/gh/BuildForSDGCohort2/team-256-group-a-backend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/team-256-group-a-backend&utm_campaign=Badge_Grade_Dashboard)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildForSDGCohort2/team-256-group-a-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildForSDGCohort2/team-256-group-a-backend/issues"
+  },
+  "homepage": "https://github.com/BuildForSDGCohort2/team-256-group-a-backend#readme"
+}
