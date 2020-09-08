@@ -1,9 +1,9 @@
 {
-  "name": "team256",
+  "name": "team-256-group-a-backend",
   "version": "1.0.0",
   "description": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/844ed56ffaf9427b9d7354cc2084055b)](https://app.codacy.com/gh/BuildForSDGCohort2/team-256-group-a-backend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/team-256-group-a-backend&utm_campaign=Badge_Grade_Dashboard)",
-  "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/BuildForSDGCohort2/team-256-group-a-backend/issues"
   },
-  "homepage": "https://github.com/BuildForSDGCohort2/team-256-group-a-backend#readme"
+  "homepage": "https://github.com/BuildForSDGCohort2/team-256-group-a-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "passport": "^0.4.1"
+  }
 }
